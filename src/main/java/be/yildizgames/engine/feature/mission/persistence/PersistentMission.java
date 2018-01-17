@@ -24,9 +24,9 @@
 
 package be.yildizgames.engine.feature.mission.persistence;
 
-import be.yildiz.common.collections.Lists;
-import be.yildiz.common.id.PlayerId;
 import be.yildiz.module.database.data.PersistentData;
+import be.yildizgames.common.collection.Lists;
+import be.yildizgames.common.model.PlayerId;
 import be.yildizgames.engine.feature.mission.MissionId;
 import be.yildizgames.engine.feature.mission.MissionManager;
 import be.yildizgames.engine.feature.mission.MissionStatus;
@@ -43,7 +43,7 @@ import java.util.Optional;
 /**
  * @author Grégory Van den Borre
  */
-public class PersistentMission implements PersistentData<PlayerMissionStatus, PlayerMissionStatus> {
+public class PersistentMission implements PersistentData<PlayerMissionStatus, PlayerMissionStatus, PlayerMissionStatus> {
 
     private static final MissionsStatus TABLE = MissionsStatus.MISSIONS_STATUS;
 
