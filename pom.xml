@@ -43,9 +43,9 @@
   </scm>
 
   <parent>
-    <artifactId>parent</artifactId>
+    <artifactId>parent-feature-server</artifactId>
     <groupId>be.yildiz-games</groupId>
-    <version>2.1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <properties>
