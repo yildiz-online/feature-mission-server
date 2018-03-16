@@ -24,19 +24,19 @@
 
 package be.yildizgames.engine.feature.mission.persistence;
 
-import be.yildiz.module.database.data.PersistentData;
-import be.yildizgames.common.collection.Lists;
 import be.yildizgames.common.model.PlayerId;
 import be.yildizgames.engine.feature.mission.MissionId;
 import be.yildizgames.engine.feature.mission.MissionManager;
 import be.yildizgames.engine.feature.mission.MissionStatus;
 import be.yildizgames.engine.feature.mission.PlayerMissionStatus;
 import be.yildizgames.engine.feature.mission.generated.database.tables.MissionsStatus;
+import be.yildizgames.module.database.data.PersistentData;
 import org.jooq.DSLContext;
 import org.jooq.conf.Settings;
 import org.jooq.impl.DSL;
 
 import java.sql.Connection;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -47,7 +47,7 @@ public class PersistentMission implements PersistentData<PlayerMissionStatus, Pl
 
     private static final MissionsStatus TABLE = MissionsStatus.MISSIONS_STATUS;
 
-    private List<PlayerMissionStatus> missions = Lists.newList();
+    private List<PlayerMissionStatus> missions = new ArrayList<>();
 
     public PersistentMission(Connection c, MissionManager manager) {
         super();
