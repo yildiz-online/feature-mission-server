@@ -25,7 +25,7 @@
 module be.yildizgames.feature.mission.server {
 
     requires java.sql;
-    requires java.xml.ws.annotation;
+    requires java.annotation;
 
     requires be.yildizgames.feature.mission.shared;
     requires be.yildizgames.common.model;
