@@ -45,7 +45,7 @@
   <parent>
     <artifactId>parent-feature-server</artifactId>
     <groupId>be.yildiz-games</groupId>
-    <version>1.0.2</version>
+    <version>1.0.5</version>
   </parent>
 
   <properties>
