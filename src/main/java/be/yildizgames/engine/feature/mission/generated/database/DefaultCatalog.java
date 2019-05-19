@@ -81,3 +81,4 @@ public class DefaultCatalog extends CatalogImpl {
             Public.PUBLIC);
     }
 }
+

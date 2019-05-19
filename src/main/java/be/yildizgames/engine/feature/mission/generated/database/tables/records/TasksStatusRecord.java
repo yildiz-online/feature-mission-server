@@ -356,4 +356,5 @@ public class TasksStatusRecord extends UpdatableRecordImpl<TasksStatusRecord> im
         set(3, misId);
         set(4, status);
     }
+
 }

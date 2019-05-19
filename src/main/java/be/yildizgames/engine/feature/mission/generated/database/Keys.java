@@ -86,3 +86,4 @@ public class Keys {
         public static final UniqueKey<TasksStatusRecord> PK_TASKS_STATUS = createUniqueKey(TasksStatus.TASKS_STATUS, "PK_TASKS_STATUS", TasksStatus.TASKS_STATUS.TST_ID);
     }
 }
+

@@ -99,3 +99,4 @@ public class Public extends SchemaImpl {
             TasksStatus.TASKS_STATUS);
     }
 }
+

@@ -307,4 +307,5 @@ public class MissionsStatusRecord extends UpdatableRecordImpl<MissionsStatusReco
         set(2, plyId);
         set(3, status);
     }
+
 }

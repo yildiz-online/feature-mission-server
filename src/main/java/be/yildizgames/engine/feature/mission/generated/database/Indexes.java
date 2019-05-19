@@ -66,3 +66,4 @@ public class Indexes {
         public static Index PRIMARY_KEY_DA = createIndex("PRIMARY_KEY_DA", TasksStatus.TASKS_STATUS, new OrderField[] { TasksStatus.TASKS_STATUS.TST_ID }, true);
     }
 }
+

@@ -82,9 +82,8 @@ public class PersistentMission implements PersistentData<PlayerMissionStatus, Pl
     }
 
     @Override
-    public void update(PlayerMissionStatus data, Connection c) {
+    public final void update(PlayerMissionStatus data, Connection c) {
 
     }
-
 
 }

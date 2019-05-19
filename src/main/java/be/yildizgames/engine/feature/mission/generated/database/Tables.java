@@ -57,3 +57,4 @@ public class Tables {
      */
     public static final TasksStatus TASKS_STATUS = be.yildizgames.engine.feature.mission.generated.database.tables.TasksStatus.TASKS_STATUS;
 }
+

@@ -197,3 +197,4 @@ public class MissionsStatus extends TableImpl<MissionsStatusRecord> {
         return new MissionsStatus(name, null);
     }
 }
+

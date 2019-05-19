@@ -202,3 +202,4 @@ public class TasksStatus extends TableImpl<TasksStatusRecord> {
         return new TasksStatus(name, null);
     }
 }
+
