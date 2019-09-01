@@ -50,6 +50,7 @@
 
   <properties>
     <feature.package>mission</feature.package>
+    <java.version>11</java.version>
   </properties>
 
   <dependencies>
